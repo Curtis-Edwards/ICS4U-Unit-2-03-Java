@@ -25,20 +25,20 @@ public class CurtisStack {
         stackAsList = new ArrayList<>();
     }
 
-  /**
-     * Checks if stack is empty.
-     *
-     * @return true if the stack is empty, false otherwise
-     */
+    /**
+    * Checks if stack is empty.
+    *
+    * @return true if the stack is empty, false otherwise
+    */
     public boolean isEmpty() {
         return stackAsList.isEmpty();
     }
 
     /**
-     * Returns stack size.
-     *
-     * @return the size of the stack
-     */
+    * Returns stack size.
+    *
+    * @return the size of the stack
+    */
     public int size() {
         return stackAsList.size();
     }
@@ -58,7 +58,7 @@ public class CurtisStack {
         }
         return values.toString();
     }
-  
+
     /**
     * The push() method.
     *

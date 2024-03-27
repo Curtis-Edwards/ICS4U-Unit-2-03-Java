@@ -32,6 +32,8 @@ final class Main {
         final String poppedString = "popped: ";
         final String coloursString = "colours: ";
         final String shapesString = "shapes: ";
+        final String lengthString = "length: ";
+        final String isEmptyString = "is empty: ";
 
         final CurtisStack fruits = new CurtisStack();
         fruits.push("apple");
@@ -40,6 +42,8 @@ final class Main {
         System.out.println(fruitsString + fruits.showStack());
         System.out.println(poppedString + fruits.popItem());
         System.out.println(fruitsString + fruits.showStack());
+        System.out.println(lengthString + fruits.size());
+        System.out.println(isEmptyString + fruits.isEmpty());
         System.out.println("");
 
         final CurtisStack colours = new CurtisStack();
@@ -50,6 +54,8 @@ final class Main {
         System.out.println(poppedString + colours.popItem());
         System.out.println(poppedString + colours.popItem());
         System.out.println(coloursString + colours.showStack());
+        System.out.println(lengthString + colours.size());
+        System.out.println(isEmptyString + colours.isEmpty());
         System.out.println("");
 
         final CurtisStack shapes = new CurtisStack();
@@ -62,6 +68,9 @@ final class Main {
         System.out.println(poppedString + shapes.popItem());
         System.out.println(poppedString + shapes.popItem());
         System.out.println(shapesString + shapes.showStack());
+        System.out.println(lengthString + shapes.size());
+        System.out.println(isEmptyString + shapes.isEmpty());
+        System.out.println("");
 
         System.out.println("\nDone.");
     }
